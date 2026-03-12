@@ -55,13 +55,13 @@ I enjoy building systems from scratch and thinking deeply about architecture and
 <h2 align="center">📚 Academic Background</h2>
 
 <p align="center">
-🎓 Bahçeşehir University – Software Engineering <br>
-🎓 Bahçeşehir University (Double Major) – Computer Education and Instructional Technology <br>
+🎓 Bahçeşehir University (Double Major) – Software Engineering <br>
+🎓 Bahçeşehir University – Computer Education and Instructional Technology <br>
 🎓 Universidad San Jorge (Erasmus) – Computer Engineering & Design and Development of Videogames
 </p>
 
 ---
 
 <p align="center">
-Building systems. Solving problems. Improving every iteration.
+Also I love cats.
 </p>
