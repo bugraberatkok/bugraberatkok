@@ -19,7 +19,7 @@ Software Engineering Student
 <h2 align="center">🚀 About Me</h2>
 
 <p align="center">
-I'm a software engineering student striving to become a game developer.<br>
+I'm a software engineering student. <br>
 I enjoy building systems from scratch and thinking deeply about architecture and design.
 </p>
 
