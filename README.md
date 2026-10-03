@@ -2,7 +2,7 @@
 
 # Hi, I'm Buğra Berat Kök 👋
 
-### Software Engineer · Full-Stack Development · AI-Integrated Systems
+### Software Engineer · Full-Stack Development · Software Architecture · AI-Integrated Systems
 
 Building software with a focus on **backend systems, architecture and modern AI workflows.**
 
@@ -22,7 +22,7 @@ Building software with a focus on **backend systems, architecture and modern AI 
 
 **Software Developer Intern @ Ailways**
 
-`Full-Stack` · `Software Architecture` · `AI Agents` · `n8n` · `AI Integrations`
+`Full-Stack` · `Backend` · `Software Architecture` · `AI Agents` · `n8n`
 
 </div>
 
@@ -44,22 +44,28 @@ Building software with a focus on **backend systems, architecture and modern AI 
 
 ![Java](https://img.shields.io/badge/Java-F2D638?style=for-the-badge&logo=openjdk&logoColor=21262D)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2D638?style=for-the-badge&logo=springboot&logoColor=21262D)
+![JavaScript](https://img.shields.io/badge/JavaScript-F2D638?style=for-the-badge&logo=javascript&logoColor=21262D)
 ![React](https://img.shields.io/badge/React-F2D638?style=for-the-badge&logo=react&logoColor=21262D)
-![TypeScript](https://img.shields.io/badge/TypeScript-F2D638?style=for-the-badge&logo=typescript&logoColor=21262D)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-F2D638?style=for-the-badge&logo=postgresql&logoColor=21262D)
 
-### AI & Automation
+### AI, Automation & Testing
 
 ![n8n](https://img.shields.io/badge/n8n-21262D?style=for-the-badge&logo=n8n&logoColor=F2D638)
 ![Gemini](https://img.shields.io/badge/Gemini-21262D?style=for-the-badge&logo=googlegemini&logoColor=F2D638)
+![Selenium](https://img.shields.io/badge/Selenium-21262D?style=for-the-badge&logo=selenium&logoColor=F2D638)
 ![Docker](https://img.shields.io/badge/Docker-21262D?style=for-the-badge&logo=docker&logoColor=F2D638)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-21262D?style=for-the-badge&logo=githubactions&logoColor=F2D638)
 
-### Engineering Background
+### Additional Experience
 
 ![C++](https://img.shields.io/badge/C++-21262D?style=for-the-badge&logo=cplusplus&logoColor=F2D638)
-![JavaScript](https://img.shields.io/badge/JavaScript-21262D?style=for-the-badge&logo=javascript&logoColor=F2D638)
-![Selenium](https://img.shields.io/badge/Selenium-21262D?style=for-the-badge&logo=selenium&logoColor=F2D638)
+![C#](https://img.shields.io/badge/C%23-21262D?style=for-the-badge&logo=csharp&logoColor=F2D638)
+![Python](https://img.shields.io/badge/Python-21262D?style=for-the-badge&logo=python&logoColor=F2D638)
+![TypeScript](https://img.shields.io/badge/TypeScript-21262D?style=for-the-badge&logo=typescript&logoColor=F2D638)
+![WordPress](https://img.shields.io/badge/WordPress-21262D?style=for-the-badge&logo=wordpress&logoColor=F2D638)
+![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-21262D?style=for-the-badge&logo=unrealengine&logoColor=F2D638)
+![Unity](https://img.shields.io/badge/Unity-21262D?style=for-the-badge&logo=unity&logoColor=F2D638)
+![JMeter](https://img.shields.io/badge/JMeter-21262D?style=for-the-badge&logo=apache&logoColor=F2D638)
 
 </div>
 
