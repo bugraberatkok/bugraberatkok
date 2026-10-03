@@ -1,67 +1,40 @@
-<h1 align="center">Hi, I'm Buğra Berat Kök 👋</h1>
+# Hi, I'm Buğra Berat Kök
 
-<p align="center">
-Software Engineering Student
-</p>
+**Software Engineering · Full-Stack & Backend Development · Software Architecture · AI-Integrated Systems**
 
+I build full-stack applications, backend services, and AI agent workflows with a foundation in algorithms, OOP, databases, design patterns, debugging, and testing. I use AI for architecture exploration, planning, implementation, debugging, review, refactoring, testing, and validation, while retaining technical responsibility for the architecture, code, and system behavior.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/buğra-berat-kök-209480231/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:bugraberat1@hotmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+[Portfolio](https://bugra-berat-kok-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/bugraberatkok/)
 
----
+## Current work & experience
 
-<h2 align="center">🚀 About Me</h2>
+- **Ailways — Software Developer Intern** · 14 September 2026–Present. Building AI integrations and n8n agent/sub-agent workflows, including Şifa and a centralized WordPress Multisite management platform; working on software architecture and validation.
+- **Egemsoft — Software Testing / Test Automation Internship** · Summer 2026. Java, Selenium, JUnit, Maven, Postman, SQL, and JMeter for UI automation, API testing, regression testing, and performance/load testing.
+- **IdeaSoft — Frontend Developer Intern** · Six-month internship. Responsive interfaces and website maintenance with WordPress, Elementor, HTML, CSS, and JavaScript.
 
-<p align="center">
-I'm a software engineering student. <br>
-I enjoy building systems from scratch and thinking deeply about architecture and design.
-</p>
+## Technical focus
 
----
+| Area | Technologies & practices |
+| --- | --- |
+| Backend & data | Java, Spring Boot, Spring Security, JWT, Spring Data JPA, PostgreSQL, Flyway, REST APIs |
+| Frontend | React, TypeScript, JavaScript, Next.js, Vite, HTML, CSS |
+| Architecture | Modular monoliths, layered architecture, API and database design, authentication/authorization, design patterns |
+| AI & automation | n8n, Google Gemini, Supabase, AI agents/sub-agents, tool integration, context management, output validation, MCP |
+| Quality & delivery | JUnit, Mockito, Selenium, Postman, JMeter, GitHub Actions, Docker, Railway, Vercel |
 
-<h2 align="center">🛠 Tech Stack</h2>
+## Selected projects
 
-<h3 align="center">💻 Languages</h3>
+- **[Smart Chores Tracker](https://github.com/bugraberatkok/SmartChoresTracker)** — Software Engineering capstone: household chore management and gamification. Java 21 / Spring Boot, React 19 / TypeScript, PostgreSQL; JWT authentication, role-based authorization, a feature-oriented modular monolith, and CI/deployment with GitHub Actions, Railway, and Vercel.
+- **[Şifa — AI Health Assistant](https://github.com/bugraberatkok/ailways-saglik-asistani)** — Ailways internship demo with a main agent and specialized sub-agents. n8n, Gemini, and Supabase/PostgreSQL; conversational context, idempotency, output validation, and unit, database, and end-to-end tests.
+- **[WordPress Multisite Management Platform](https://github.com/bugraberatkok/demo-wordpress-multisite)** — Centralized content and product management with independent site designs, live previews, SEO/structured data, and experiments with MCP and AI-assisted management.
+- **[Football Analyzer AI](https://github.com/bugraberatkok/football-analyzer-ai)** — Spring Boot / React application combining Sofascore statistics and Gemini analysis, with MVC, Facade, Strategy, and dependency injection.
+- **[Focus — Custom C++ Game Engine](https://github.com/bugraberatkok/Focus-GameEngine-and-Two-Playable-Games)** — Reusable 2D engine built with C++, SDL, and OpenGL: rendering, game loops, input, collisions, and scene management. My game development background remains a foundation for low-level programming and architecture.
+- **[FitTrack](https://github.com/bugraberatkok/fitness-web-app)** — Fitness and nutrition tracking with Spring Boot, Spring Security/JWT, React, and H2.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML%2FCSS-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-</p>
+## Education & languages
 
----
+- **Bahçeşehir University — B.Sc. Software Engineering:** expected graduation January 2027.
+- **Bahçeşehir University — CEIT double major:** completed June 2026.
+- **Universidad San Jorge — Erasmus exchange:** Zaragoza, Spain, 2025/2026; cryptography and computer graphics coursework in an international environment.
 
-<h3 align="center">⚙️ Technologies</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Unreal%20Engine-313131?style=for-the-badge&logo=unrealengine&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Custom%20C%2B%2B%20Game%20Engine-00599C?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Web%20Game%20Development-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Frontend%20Design-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-</p>
-
----
-
-<h2 align="center">📚 Academic Background</h2>
-
-<p align="center">
-🎓 Bahçeşehir University (Double Major) – Software Engineering <br>
-🎓 Bahçeşehir University – Computer Education and Instructional Technology <br>
-🎓 Universidad San Jorge (Erasmus) – Computer Engineering & Design and Development of Videogames
-</p>
-
----
-
-<p align="center">
-Also I love cats.
-</p>
+Turkish — Native · English — Advanced · Spanish — A1 Certificate
