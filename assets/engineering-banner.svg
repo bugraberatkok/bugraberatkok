@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-labelledby="title desc">
+  <title id="title">Software engineering — full-stack, architecture, and AI-integrated systems</title>
+  <desc id="desc">A dark blue engineering banner with connected React, Spring Boot, and PostgreSQL layers, alongside n8n agent workflows.</desc>
+  <rect width="1000" height="230" rx="8" fill="#10141c"/>
+  <path d="M32 32h936M32 198h936" stroke="#303b4b"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="44" y="81" fill="#edf2fa" font-size="30" font-weight="600">Code. Architecture. Ownership.</text>
+    <text x="44" y="119" fill="#aab6c7" font-size="17">Full-stack &amp; backend development</text>
+    <text x="44" y="149" fill="#aab6c7" font-size="17">AI-integrated systems, grounded in engineering.</text>
+    <path d="M527 55v120" stroke="#303b4b"/>
+    <g fill="#19212d" stroke="#4b5e78">
+      <rect x="565" y="64" width="110" height="52" rx="4"/>
+      <rect x="709" y="64" width="110" height="52" rx="4"/>
+      <rect x="853" y="64" width="110" height="52" rx="4"/>
+    </g>
+    <g fill="#edf2fa" font-size="14" text-anchor="middle">
+      <text x="620" y="95">React / TS</text>
+      <text x="764" y="95">Spring Boot</text>
+      <text x="908" y="95">PostgreSQL</text>
+    </g>
+    <g stroke="#8db6f4" fill="none">
+      <path d="M675 90h34m-7-5 7 5-7 5M819 90h34m-7-5 7 5-7 5"/>
+    </g>
+    <text x="565" y="157" fill="#8db6f4" font-size="14">n8n · AI agents · Testing &amp; validation</text>
+  </g>
+</svg>
