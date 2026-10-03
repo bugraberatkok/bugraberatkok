@@ -30,11 +30,9 @@ Building software with a focus on **backend systems, architecture and modern AI 
 
 ## 💼 Experience
 
-| Ailways | Egemsoft | IdeaSoft |
-| :---: | :---: | :---: |
-| **Software Developer Intern** | **Test Automation & Performance Intern** | **Frontend Developer Intern** |
-| Sep 2026 — Present | Summer 2026 | 6 Months |
-| AI · Full-Stack · Architecture | Java · Selenium · JMeter | Frontend · WordPress |
+- **Software Developer Intern** — Ailways
+- **Test Automation & Performance Intern** — Egemsoft
+- **Frontend Developer Intern** — IdeaSoft
 
 ---
 
@@ -77,10 +75,10 @@ Software Engineering · Expected **January 2027**
 Computer Education and Instructional Technology  
 Double Major · **Completed June 2026**
 
-**Universidad San Jorge 🇪🇸** · Erasmus
+**Universidad San Jorge** · Erasmus
 
 <br/>
 
-🇹🇷 Turkish · 🇬🇧 English · 🇪🇸 Spanish A1
+**Languages:** Turkish · English · Spanish (A1)
 
 </div>
