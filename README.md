@@ -1,81 +1,86 @@
-<h1 align="center">Hi, I'm Buğra Berat Kök 👋</h1>
+<div align="center">
 
-<p align="center">
-  <strong>Software Engineering Student · Full-Stack Developer</strong>
-</p>
+# Hi, I'm Buğra Berat Kök 👋
 
-<p align="center">
-  I build full-stack and backend systems with a growing focus on <strong>software architecture</strong> and <strong>AI-integrated applications</strong>.<br />
-  Currently working as a <strong>Software Developer Intern at Ailways</strong>.
-</p>
+### Software Engineer · Full-Stack Development · AI-Integrated Systems
+
+Building software with a focus on **backend systems, architecture and modern AI workflows.**
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-F2D638?style=for-the-badge&logo=vercel&logoColor=21262D)](https://bugra-berat-kok-portfolio.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-21262D?style=for-the-badge&logo=linkedin&logoColor=F2D638)](https://www.linkedin.com/in/bugraberatkok/)
+[![Email](https://img.shields.io/badge/EMAIL-21262D?style=for-the-badge&logo=gmail&logoColor=F2D638)](mailto:kokbugraberat@gmail.com)
+
+</div>
 
 ---
 
-### 👨‍💻 What I Work On
+<div align="center">
 
-- Building full-stack applications with **Java, Spring Boot, React, TypeScript and PostgreSQL**
-- Designing backend architectures, APIs, authentication, databases and modular systems
-- Integrating **AI agents, n8n workflows and LLMs** into real software systems while keeping validation and deterministic logic around them
+## ⚡ Currently
 
-### 🚀 Selected Work
+**Software Developer Intern @ Ailways**
 
-**[Smart Chores Tracker](https://github.com/bugraberatkok/SmartChoresTracker)**  
-Software Engineering capstone project — a full-stack household management platform with JWT authentication, role-based authorization, recurring chores, gamification and a modular Spring Boot backend.
+`Full-Stack` · `Software Architecture` · `AI Agents` · `n8n` · `AI Integrations`
 
-**[Şifa — AI Health Assistant](https://github.com/bugraberatkok/ailways-saglik-asistani)**  
-AI-agent system developed during my Ailways internship using n8n, Gemini, Supabase and PostgreSQL, with specialized agents, database tools, safety layers and automated testing.
+</div>
 
-**[Centralized WordPress Multisite Platform](https://github.com/bugraberatkok/demo-wordpress-multisite)**  
-A multi-site management platform developed at Ailways for centrally managing independent WordPress websites, content, products, media and SEO from a shared infrastructure.
+---
 
-<details>
-<summary><strong>Earlier engineering work</strong></summary>
-<br />
+## 💼 Experience
 
-**[Focus Game Engine](https://github.com/bugraberatkok/Focus-GameEngine-and-Two-Playable-Games)** — Custom 2D engine built with C++, SDL and OpenGL.
+| Ailways | Egemsoft | IdeaSoft |
+| :---: | :---: | :---: |
+| **Software Developer Intern** | **Test Automation & Performance Intern** | **Frontend Developer Intern** |
+| Sep 2026 — Present | Summer 2026 | 6 Months |
+| AI · Full-Stack · Architecture | Java · Selenium · JMeter | Frontend · WordPress |
 
-**[Football Analyzer AI](https://github.com/bugraberatkok/football-analyzer-ai)** — Spring Boot + React application combining football data with Gemini-based analysis.
+---
 
-</details>
+<div align="center">
 
-### 💼 Experience
+## 🛠 Tech
 
-**Ailways** — Software Developer Intern · Sep 2026 – Present  
-AI integrations, n8n, agent workflows, software architecture and full-stack development
+### Core Development
 
-**Egemsoft** — Test Automation & Performance Intern · Summer 2026  
-Java, Selenium, Postman, JMeter, API testing and performance testing
+![Java](https://img.shields.io/badge/Java-F2D638?style=for-the-badge&logo=openjdk&logoColor=21262D)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2D638?style=for-the-badge&logo=springboot&logoColor=21262D)
+![React](https://img.shields.io/badge/React-F2D638?style=for-the-badge&logo=react&logoColor=21262D)
+![TypeScript](https://img.shields.io/badge/TypeScript-F2D638?style=for-the-badge&logo=typescript&logoColor=21262D)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-F2D638?style=for-the-badge&logo=postgresql&logoColor=21262D)
 
-**IdeaSoft** — Frontend Developer Intern · 6 months  
-WordPress, HTML, CSS, JavaScript and frontend development
+### AI & Automation
 
-### 🛠 Tech Stack
+![n8n](https://img.shields.io/badge/n8n-21262D?style=for-the-badge&logo=n8n&logoColor=F2D638)
+![Gemini](https://img.shields.io/badge/Gemini-21262D?style=for-the-badge&logo=googlegemini&logoColor=F2D638)
+![Docker](https://img.shields.io/badge/Docker-21262D?style=for-the-badge&logo=docker&logoColor=F2D638)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-21262D?style=for-the-badge&logo=githubactions&logoColor=F2D638)
 
-<p align="center">
-  <img alt="Java" src="https://img.shields.io/badge/Java-F2D638?style=for-the-badge&logo=openjdk&logoColor=21262D" />
-  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-F2D638?style=for-the-badge&logo=springboot&logoColor=21262D" />
-  <img alt="React" src="https://img.shields.io/badge/React-F2D638?style=for-the-badge&logo=react&logoColor=21262D" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-F2D638?style=for-the-badge&logo=typescript&logoColor=21262D" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-E9B033?style=for-the-badge&logo=postgresql&logoColor=21262D" />
-  <img alt="n8n" src="https://img.shields.io/badge/n8n-21262D?style=for-the-badge&logo=n8n&logoColor=F2D638" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-21262D?style=for-the-badge&logo=docker&logoColor=F2D638" />
-  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-21262D?style=for-the-badge&logo=cplusplus&logoColor=F2D638" />
-</p>
+### Engineering Background
 
-### 🎓 Education
+![C++](https://img.shields.io/badge/C++-21262D?style=for-the-badge&logo=cplusplus&logoColor=F2D638)
+![JavaScript](https://img.shields.io/badge/JavaScript-21262D?style=for-the-badge&logo=javascript&logoColor=F2D638)
+![Selenium](https://img.shields.io/badge/Selenium-21262D?style=for-the-badge&logo=selenium&logoColor=F2D638)
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎓 Education
 
 **Bahçeşehir University**  
-B.Sc. Software Engineering — Expected Jan 2027  
-Computer Education and Instructional Technology — Double Major, completed Jun 2026
+Software Engineering · Expected **January 2027**
 
-**Universidad San Jorge** — Erasmus Exchange, Zaragoza
+Computer Education and Instructional Technology  
+Double Major · **Completed June 2026**
 
-Turkish · English · Spanish A1
+**Universidad San Jorge 🇪🇸** · Erasmus
 
-<p align="center">
-  <a href="https://bugra-berat-kok-portfolio.vercel.app/">Portfolio</a>
-  ·
-  <a href="https://www.linkedin.com/in/bugraberatkok/">LinkedIn</a>
-  ·
-  <a href="mailto:kokbugraberat@gmail.com">Email</a>
-</p>
+<br/>
+
+🇹🇷 Turkish · 🇬🇧 English · 🇪🇸 Spanish A1
+
+</div>
