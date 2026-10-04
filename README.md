@@ -33,7 +33,9 @@ Building software with a focus on **backend systems, architecture and modern AI 
 ## 💼 Experience
 
 **Software Developer Intern** — Ailways
+<br>
 **Test Engineer Intern** — Egemsoft (Summer 2026)
+<br>
 **Frontend Developer Intern** — IdeaSoft (March 2025 - September 2025)
 
 </div>
