@@ -51,14 +51,14 @@ Building software with a focus on **backend systems, architecture and modern AI 
 
 ### Additional Experience
 
-![C#](https://img.shields.io/badge/C%23-21262D?style=for-the-badge&logo=csharp&logoColor=F2D638)
+![C#](https://img.shields.io/badge/C%23-21262D?style=for-the-badge&logo=dotnet&logoColor=F2D638)
 ![Python](https://img.shields.io/badge/Python-21262D?style=for-the-badge&logo=python&logoColor=F2D638)
 ![Unity](https://img.shields.io/badge/Unity-21262D?style=for-the-badge&logo=unity&logoColor=F2D638)
 ![JMeter](https://img.shields.io/badge/JMeter-21262D?style=for-the-badge&logo=apache&logoColor=F2D638)
 ![n8n](https://img.shields.io/badge/n8n-21262D?style=for-the-badge&logo=n8n&logoColor=F2D638)
 ![Selenium](https://img.shields.io/badge/Selenium-21262D?style=for-the-badge&logo=selenium&logoColor=F2D638)
 ![Docker](https://img.shields.io/badge/Docker-21262D?style=for-the-badge&logo=docker&logoColor=F2D638)
-![Version Control](https://img.shields.io/badge/GitHub_Actions-21262D?style=for-the-badge&logo=githubactions&logoColor=F2D638)
+![Version Control](https://img.shields.io/badge/Version_Control-21262D?style=for-the-badge&logo=git&logoColor=F2D638)
 
 </div>
 
