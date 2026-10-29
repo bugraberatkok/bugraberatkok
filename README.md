@@ -11,7 +11,7 @@ I build full-stack applications and backend systems, and I care about clean arch
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/experience-dark.svg">
-  <img src="assets/experience-light.svg" alt="Experience. Ailways: Software Developer Intern, Sep 2026 – present. Egemsoft: Software Testing and Test Automation Intern, Jul – Aug 2026. TNC Group: Project-Based Software Engineering Training, Jul – Aug 2026. IdeaSoft: Frontend Developer Intern, Mar – Sep 2025." width="100%">
+  <img src="assets/experience-light.svg" alt="Experience. Ailways: Software Developer Intern, Sep 2026 – present. Egemsoft: Software Testing and Test Automation Intern, Jul – Aug 2026. TNC Group: Project-Based Software Engineering Training, Jul – Aug 2026. IdeaSoft: Frontend Developer Intern, Mar – Sep 2025. More levels to come." width="100%">
 </picture>
 
 <picture>
