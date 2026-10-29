@@ -1,6 +1,9 @@
-# Buğra Berat Kök
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" alt="Buğra Berat Kök, Software Engineering student and full-stack developer" width="100%">
+</picture>
 
-Software Engineering student and full-stack developer. I build full-stack applications, backend systems and AI integrations with software architecture at the center.
+I build full-stack applications, backend systems and AI integrations with software architecture at the center.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-F5C84C?style=flat-square&logo=vercel&logoColor=1F1A33)](https://bugra-berat-kok-portfolio.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-1F1A33?style=flat-square&logo=linkedin&logoColor=F5C84C)](https://www.linkedin.com/in/bugraberatkok/)

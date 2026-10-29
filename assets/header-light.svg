@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Buğra Berat Kök</title>
+  <desc id="desc">Software Engineering student and full-stack developer: backend systems, software architecture and AI integrations. Software Developer Intern at Ailways.</desc>
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#E2DDF0"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#FAF9FD" stop-opacity="1"/>
+      <stop offset="0.55" stop-color="#FAF9FD" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#FAF9FD" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .eyebrow { font-size: 16px; font-weight: 600; letter-spacing: 2.4px; fill: #5E5873; }
+    .name { font-size: 66px; font-weight: 700; letter-spacing: -1.6px; fill: #1F1A33; }
+    .phrase { font-size: 31px; font-weight: 600; fill: #5A4A94; opacity: 0; animation: cycle 12s ease-in-out infinite both; }
+    .now { font-size: 20px; fill: #5E5873; }
+    .now tspan { font-weight: 700; fill: #1F1A33; }
+    .box { fill: #EFECF7; stroke: #D3CBE8; stroke-width: 1.5; }
+    .box-label { font-size: 19px; font-weight: 600; fill: #1F1A33; }
+    .link { stroke: #B9ADEB; stroke-width: 2; stroke-dasharray: 4 6; animation: flow 1.6s linear infinite; }
+    .pulse { fill: #F5C84C; opacity: 0; }
+
+    .intro > * { animation: rise .8s cubic-bezier(.2, .7, .2, 1) both; }
+    .intro > :nth-child(2) { animation-delay: .1s; }
+    .intro > :nth-child(3) { animation-delay: .2s; }
+
+    .ring { fill: none; stroke: #F5C84C; stroke-width: 2; transform-box: fill-box; transform-origin: center; animation: ring 2.4s ease-out infinite; }
+
+    .p1 { animation: down 6s linear infinite; }
+    .p2 { animation: out 6s linear infinite; }
+    .p3 { animation: back 6s linear infinite; }
+    .p4 { animation: down2 6s linear infinite; }
+    .box-ui { animation: hi-ui 6s linear infinite; }
+    .box-api { animation: hi-api 6s linear infinite; }
+    .box-agent { animation: hi-agent 6s linear infinite; }
+    .box-db { animation: hi-db 6s linear infinite; }
+
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    @keyframes cycle {
+      0% { opacity: 0; transform: translateY(12px); }
+      4%, 21% { opacity: 1; transform: none; }
+      25%, 100% { opacity: 0; transform: translateY(-12px); }
+    }
+    @keyframes flow { to { stroke-dashoffset: -20; } }
+    @keyframes ring { 0% { opacity: .9; transform: scale(1); } 100% { opacity: 0; transform: scale(2.6); } }
+
+    @keyframes down { 0% { opacity: 0; transform: none; } 2% { opacity: 1; } 14% { opacity: 1; transform: translateY(42px); } 16%, 100% { opacity: 0; transform: translateY(42px); } }
+    @keyframes out { 0%, 17% { opacity: 0; transform: none; } 19% { opacity: 1; } 31% { opacity: 1; transform: translateX(46px); } 33%, 100% { opacity: 0; transform: translateX(46px); } }
+    @keyframes back { 0%, 40% { opacity: 0; transform: none; } 42% { opacity: 1; } 54% { opacity: 1; transform: translateX(-46px); } 56%, 100% { opacity: 0; transform: translateX(-46px); } }
+    @keyframes down2 { 0%, 58% { opacity: 0; transform: none; } 60% { opacity: 1; } 72% { opacity: 1; transform: translateY(42px); } 74%, 100% { opacity: 0; transform: translateY(42px); } }
+    @keyframes hi-ui { 0%, 4% { stroke: #5A4A94; } 8%, 100% { stroke: #D3CBE8; } }
+    @keyframes hi-api { 0%, 13% { stroke: #D3CBE8; } 15%, 19% { stroke: #5A4A94; } 23%, 53% { stroke: #D3CBE8; } 55%, 60% { stroke: #5A4A94; } 64%, 100% { stroke: #D3CBE8; } }
+    @keyframes hi-agent { 0%, 30% { stroke: #D3CBE8; } 32%, 41% { stroke: #5A4A94; } 45%, 100% { stroke: #D3CBE8; } }
+    @keyframes hi-db { 0%, 71% { stroke: #D3CBE8; } 73%, 80% { stroke: #5A4A94; } 84%, 100% { stroke: #D3CBE8; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, .intro > * { animation: none !important; }
+      .phrase:first-of-type { opacity: 1; }
+    }
+  </style>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="318.5" rx="20" fill="#FAF9FD" stroke="#E2DDF0" stroke-width="1.5"/>
+  <rect x="600" y="1.5" width="597" height="317" rx="19" fill="url(#dots)"/>
+  <rect x="600" y="1.5" width="260" height="317" fill="url(#fade)"/>
+
+  <g class="intro">
+    <text class="eyebrow" x="64" y="76">SOFTWARE ENGINEERING STUDENT · FULL-STACK DEVELOPER</text>
+    <text class="name" x="61" y="146">Buğra Berat Kök</text>
+    <g>
+      <rect x="64" y="180" width="12" height="12" rx="2.5" fill="#F5C84C"/>
+      <text class="phrase" style="animation-delay:0s" x="90" y="202">Backend systems</text>
+      <text class="phrase" style="animation-delay:3s" x="90" y="202">Software architecture</text>
+      <text class="phrase" style="animation-delay:6s" x="90" y="202">AI integrations</text>
+      <text class="phrase" style="animation-delay:9s" x="90" y="202">Full-stack applications</text>
+    </g>
+  </g>
+
+  <circle cx="70" cy="248" r="6" fill="#F5C84C"/>
+  <circle class="ring" cx="70" cy="248" r="6"/>
+  <text class="now" x="90" y="255">Software Developer Intern at <tspan>Ailways</tspan></text>
+
+  <line class="link" x1="880" y1="94" x2="880" y2="136"/>
+  <line class="link" x1="880" y1="184" x2="880" y2="226"/>
+  <line class="link" x1="980" y1="160" x2="1026" y2="160"/>
+  <rect class="box box-ui" x="780" y="46" width="200" height="48" rx="11"/>
+  <text class="box-label" x="880" y="77" text-anchor="middle">Interface</text>
+  <rect class="box box-api" x="780" y="136" width="200" height="48" rx="11"/>
+  <text class="box-label" x="880" y="167" text-anchor="middle">REST API</text>
+  <rect class="box box-db" x="780" y="226" width="200" height="48" rx="11"/>
+  <text class="box-label" x="880" y="257" text-anchor="middle">Database</text>
+  <rect class="box box-agent" x="1026" y="136" width="128" height="48" rx="11"/>
+  <text class="box-label" x="1090" y="167" text-anchor="middle">AI agent</text>
+  <circle class="pulse p1" cx="880" cy="94" r="6"/>
+  <circle class="pulse p2" cx="980" cy="160" r="6"/>
+  <circle class="pulse p3" cx="1026" cy="160" r="6"/>
+  <circle class="pulse p4" cx="880" cy="184" r="6"/>
+</svg>
