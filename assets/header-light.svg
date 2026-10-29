@@ -1,15 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Buğra Berat Kök</title>
-  <desc id="desc">Software Engineering student and full-stack developer: backend systems, software architecture and AI integrations. Software Developer Intern at Ailways.</desc>
+  <desc id="desc">Software Engineering student and full-stack developer, Software Developer Intern at Ailways. A software life cycle loops beside the name: plan, design, build, test, deploy, maintain.</desc>
   <defs>
-    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#E2DDF0"/>
-    </pattern>
-    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0" stop-color="#FAF9FD" stop-opacity="1"/>
-      <stop offset="0.55" stop-color="#FAF9FD" stop-opacity="0.85"/>
-      <stop offset="1" stop-color="#FAF9FD" stop-opacity="0"/>
-    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#E2DDF0"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#FAF9FD"/><stop offset=".55" stop-color="#FAF9FD" stop-opacity=".85"/><stop offset="1" stop-color="#FAF9FD" stop-opacity="0"/></linearGradient>
   </defs>
   <style>
     text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
@@ -18,47 +12,43 @@
     .phrase { font-size: 31px; font-weight: 600; fill: #5A4A94; opacity: 0; animation: cycle 12s ease-in-out infinite both; }
     .now { font-size: 20px; fill: #5E5873; }
     .now tspan { font-weight: 700; fill: #1F1A33; }
-    .box { fill: #EFECF7; stroke: #D3CBE8; stroke-width: 1.5; }
-    .box-label { font-size: 19px; font-weight: 600; fill: #1F1A33; }
-    .link { stroke: #B9ADEB; stroke-width: 2; stroke-dasharray: 4 6; animation: flow 1.6s linear infinite; }
-    .pulse { fill: #F5C84C; opacity: 0; }
-
     .intro > * { animation: rise .8s cubic-bezier(.2, .7, .2, 1) both; }
     .intro > :nth-child(2) { animation-delay: .1s; }
     .intro > :nth-child(3) { animation-delay: .2s; }
+    .pulse-ring { fill: none; stroke: #F5C84C; stroke-width: 2; transform-box: fill-box; transform-origin: center; animation: ring 2.4s ease-out infinite; }
 
-    .ring { fill: none; stroke: #F5C84C; stroke-width: 2; transform-box: fill-box; transform-origin: center; animation: ring 2.4s ease-out infinite; }
-
-    .p1 { animation: down 6s linear infinite; }
-    .p2 { animation: out 6s linear infinite; }
-    .p3 { animation: back 6s linear infinite; }
-    .p4 { animation: down2 6s linear infinite; }
-    .box-ui { animation: hi-ui 6s linear infinite; }
-    .box-api { animation: hi-api 6s linear infinite; }
-    .box-agent { animation: hi-agent 6s linear infinite; }
-    .box-db { animation: hi-db 6s linear infinite; }
+    .track { fill: none; stroke: #B9ADEB; stroke-width: 2; stroke-dasharray: 3 7; animation: flow 2s linear infinite; }
+    .hub { fill: #EFECF7; stroke: #D3CBE8; stroke-width: 1.5; }
+    .node { fill: #EFECF7; stroke: #B9ADEB; stroke-width: 2; animation: node 12s linear infinite; }
+    .stage { font-size: 18px; font-weight: 600; fill: #5E5873; animation: stage 12s linear infinite; }
+    .orbit { transform-origin: 952px 160px; animation: spin 12s infinite; }
+    .runner { fill: #F5C84C; }
+    .runner-glow { fill: #F5C84C; opacity: .25; transform-box: fill-box; transform-origin: center; animation: glow 1s ease-in-out infinite alternate; }
+    .say { opacity: 0; animation: say 12s linear infinite; }
+    .say text { font-size: 16px; font-weight: 700; fill: #1F1A33; }
+    .say .say2 { font-size: 15px; font-weight: 500; fill: #5E5873; }
+    .bug-test { animation: bug-test 12s linear infinite; transform-box: fill-box; transform-origin: center bottom; }
+    .bug-back { opacity: 0; animation: bug-back 12s linear infinite; }
+    .legs { animation: wiggle .25s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+    .fixed { font-size: 15px; font-weight: 700; fill: #5A4A94; opacity: 0; animation: fixed 12s linear infinite; }
 
     @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
-    @keyframes cycle {
-      0% { opacity: 0; transform: translateY(12px); }
-      4%, 21% { opacity: 1; transform: none; }
-      25%, 100% { opacity: 0; transform: translateY(-12px); }
-    }
-    @keyframes flow { to { stroke-dashoffset: -20; } }
+    @keyframes cycle { 0% { opacity: 0; transform: translateY(12px); } 4%, 21% { opacity: 1; transform: none; } 25%, 100% { opacity: 0; transform: translateY(-12px); } }
     @keyframes ring { 0% { opacity: .9; transform: scale(1); } 100% { opacity: 0; transform: scale(2.6); } }
-
-    @keyframes down { 0% { opacity: 0; transform: none; } 2% { opacity: 1; } 14% { opacity: 1; transform: translateY(42px); } 16%, 100% { opacity: 0; transform: translateY(42px); } }
-    @keyframes out { 0%, 17% { opacity: 0; transform: none; } 19% { opacity: 1; } 31% { opacity: 1; transform: translateX(46px); } 33%, 100% { opacity: 0; transform: translateX(46px); } }
-    @keyframes back { 0%, 40% { opacity: 0; transform: none; } 42% { opacity: 1; } 54% { opacity: 1; transform: translateX(-46px); } 56%, 100% { opacity: 0; transform: translateX(-46px); } }
-    @keyframes down2 { 0%, 58% { opacity: 0; transform: none; } 60% { opacity: 1; } 72% { opacity: 1; transform: translateY(42px); } 74%, 100% { opacity: 0; transform: translateY(42px); } }
-    @keyframes hi-ui { 0%, 4% { stroke: #5A4A94; } 8%, 100% { stroke: #D3CBE8; } }
-    @keyframes hi-api { 0%, 13% { stroke: #D3CBE8; } 15%, 19% { stroke: #5A4A94; } 23%, 53% { stroke: #D3CBE8; } 55%, 60% { stroke: #5A4A94; } 64%, 100% { stroke: #D3CBE8; } }
-    @keyframes hi-agent { 0%, 30% { stroke: #D3CBE8; } 32%, 41% { stroke: #5A4A94; } 45%, 100% { stroke: #D3CBE8; } }
-    @keyframes hi-db { 0%, 71% { stroke: #D3CBE8; } 73%, 80% { stroke: #5A4A94; } 84%, 100% { stroke: #D3CBE8; } }
+    @keyframes flow { to { stroke-dashoffset: -20; } }
+    @keyframes spin { 0.00% { transform: rotate(0deg); } 11.67% { transform: rotate(0deg); } 16.67% { transform: rotate(60deg); } 28.33% { transform: rotate(60deg); } 33.33% { transform: rotate(120deg); } 45.00% { transform: rotate(120deg); } 50.00% { transform: rotate(180deg); } 61.67% { transform: rotate(180deg); } 66.67% { transform: rotate(240deg); } 78.33% { transform: rotate(240deg); } 83.33% { transform: rotate(300deg); } 95.00% { transform: rotate(300deg); } 100% { transform: rotate(360deg); } }
+    @keyframes glow { from { transform: scale(1); } to { transform: scale(1.5); } }
+    @keyframes node { 0%, 12% { fill: #F5C84C; stroke: #F5C84C; } 15%, 100% { fill: #EFECF7; stroke: #B9ADEB; } }
+    @keyframes stage { 0%, 12% { fill: #1F1A33; } 15%, 100% { fill: #5E5873; } }
+    @keyframes say { 0% { opacity: 0; transform: translateY(6px); } 2%, 14% { opacity: 1; transform: none; } 16.5%, 100% { opacity: 0; transform: translateY(-6px); } }
+    @keyframes bug-test { 0%, 37% { opacity: 0; transform: translateX(-26px); } 40% { opacity: 1; } 49% { opacity: 1; transform: none; } 50.5% { opacity: 1; transform: scaleY(.2); } 53%, 100% { opacity: 0; transform: scaleY(.2); } }
+    @keyframes fixed { 0%, 50% { opacity: 0; transform: none; } 52%, 60% { opacity: 1; transform: translateY(-8px); } 63%, 100% { opacity: 0; transform: translateY(-14px); } }
+    @keyframes bug-back { 0%, 84% { opacity: 0; } 87%, 97% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes wiggle { from { transform: rotate(-8deg); } to { transform: rotate(8deg); } }
 
     @media (prefers-reduced-motion: reduce) {
       *, .intro > * { animation: none !important; }
-      .phrase:first-of-type { opacity: 1; }
+      .phrase:first-of-type, .say:first-of-type { opacity: 1; }
     }
   </style>
 
@@ -69,32 +59,76 @@
   <g class="intro">
     <text class="eyebrow" x="64" y="76">SOFTWARE ENGINEERING STUDENT · FULL-STACK DEVELOPER</text>
     <text class="name" x="61" y="146">Buğra Berat Kök</text>
-    <g>
-      <rect x="64" y="180" width="12" height="12" rx="2.5" fill="#F5C84C"/>
-      <text class="phrase" style="animation-delay:0s" x="90" y="202">Backend systems</text>
-      <text class="phrase" style="animation-delay:3s" x="90" y="202">Software architecture</text>
-      <text class="phrase" style="animation-delay:6s" x="90" y="202">AI integrations</text>
-      <text class="phrase" style="animation-delay:9s" x="90" y="202">Full-stack applications</text>
+    <g><rect x="64" y="180" width="12" height="12" rx="2.5" fill="#F5C84C"/>
+      <text class="phrase" style="animation-delay:0s" x="90" y="202">Full-stack applications</text>
+      <text class="phrase" style="animation-delay:3s" x="90" y="202">Backend systems</text>
+      <text class="phrase" style="animation-delay:6s" x="90" y="202">Software architecture</text>
+      <text class="phrase" style="animation-delay:9s" x="90" y="202">Testing and automation</text>
     </g>
   </g>
-
   <circle cx="70" cy="248" r="6" fill="#F5C84C"/>
-  <circle class="ring" cx="70" cy="248" r="6"/>
+  <circle class="pulse-ring" cx="70" cy="248" r="6"/>
   <text class="now" x="90" y="255">Software Developer Intern at <tspan>Ailways</tspan></text>
 
-  <line class="link" x1="880" y1="94" x2="880" y2="136"/>
-  <line class="link" x1="880" y1="184" x2="880" y2="226"/>
-  <line class="link" x1="980" y1="160" x2="1026" y2="160"/>
-  <rect class="box box-ui" x="780" y="46" width="200" height="48" rx="11"/>
-  <text class="box-label" x="880" y="77" text-anchor="middle">Interface</text>
-  <rect class="box box-api" x="780" y="136" width="200" height="48" rx="11"/>
-  <text class="box-label" x="880" y="167" text-anchor="middle">REST API</text>
-  <rect class="box box-db" x="780" y="226" width="200" height="48" rx="11"/>
-  <text class="box-label" x="880" y="257" text-anchor="middle">Database</text>
-  <rect class="box box-agent" x="1026" y="136" width="128" height="48" rx="11"/>
-  <text class="box-label" x="1090" y="167" text-anchor="middle">AI agent</text>
-  <circle class="pulse p1" cx="880" cy="94" r="6"/>
-  <circle class="pulse p2" cx="980" cy="160" r="6"/>
-  <circle class="pulse p3" cx="1026" cy="160" r="6"/>
-  <circle class="pulse p4" cx="880" cy="184" r="6"/>
+  <circle class="track" cx="952" cy="160" r="104"/>
+  <circle class="hub" cx="952" cy="160" r="74"/>
+    <g class="say" style="animation-delay:0.00s">
+      <text x="952" y="156" text-anchor="middle">Estimate: 2 days</text>
+      <text class="say2" x="952" y="180" text-anchor="middle">Actual: 2 weeks</text>
+    </g>
+    <g class="say" style="animation-delay:-10.00s">
+      <text x="952" y="156" text-anchor="middle">Boxes, arrows,</text>
+      <text class="say2" x="952" y="180" text-anchor="middle">more arrows</text>
+    </g>
+    <g class="say" style="animation-delay:-8.00s">
+      <text x="952" y="156" text-anchor="middle">Coffee: 3 cups</text>
+      <text class="say2" x="952" y="180" text-anchor="middle">Code: compiling…</text>
+    </g>
+    <g class="say" style="animation-delay:-6.00s">
+      <text x="952" y="156" text-anchor="middle">Found a bug</text>
+      <text class="say2" x="952" y="180" text-anchor="middle">Squashed it ✓</text>
+    </g>
+    <g class="say" style="animation-delay:-4.00s">
+      <text x="952" y="156" text-anchor="middle">Friday, 17:59</text>
+      <text class="say2" x="952" y="180" text-anchor="middle">Ship it?</text>
+    </g>
+    <g class="say" style="animation-delay:-2.00s">
+      <text x="952" y="156" text-anchor="middle">The bug is back</text>
+      <text class="say2" x="952" y="180" text-anchor="middle">Round two →</text>
+    </g>
+    <circle class="node" style="animation-delay:0.00s" cx="952.0" cy="56.0" r="9"/>
+    <text class="stage" style="animation-delay:0.00s" x="952.0" y="40.0" text-anchor="middle">Plan</text>
+    <circle class="node" style="animation-delay:-10.00s" cx="1042.1" cy="108.0" r="9"/>
+    <text class="stage" style="animation-delay:-10.00s" x="1061.1" y="103.0" text-anchor="start">Design</text>
+    <circle class="node" style="animation-delay:-8.00s" cx="1042.1" cy="212.0" r="9"/>
+    <text class="stage" style="animation-delay:-8.00s" x="1061.1" y="229.0" text-anchor="start">Build</text>
+    <circle class="node" style="animation-delay:-6.00s" cx="952.0" cy="264.0" r="9"/>
+    <text class="stage" style="animation-delay:-6.00s" x="952.0" y="292.0" text-anchor="middle">Test</text>
+    <circle class="node" style="animation-delay:-4.00s" cx="861.9" cy="212.0" r="9"/>
+    <text class="stage" style="animation-delay:-4.00s" x="842.9" y="229.0" text-anchor="end">Deploy</text>
+    <circle class="node" style="animation-delay:-2.00s" cx="861.9" cy="108.0" r="9"/>
+    <text class="stage" style="animation-delay:-2.00s" x="842.9" y="103.0" text-anchor="end">Maintain</text>
+  <g transform="translate(952 262) scale(1)"><g class="bug-test">
+      <g class="legs" stroke="#1F1A33" stroke-width="1.6" stroke-linecap="round">
+        <path d="M-6 -3 l-6 -3 M-6 2 l-7 0 M-6 6 l-6 4 M6 -3 l6 -3 M6 2 l7 0 M6 6 l6 4"/>
+      </g>
+      <path d="M-3 -11 l-3 -5 M3 -11 l3 -5" stroke="#1F1A33" stroke-width="1.6" stroke-linecap="round"/>
+      <ellipse cx="0" cy="2" rx="7" ry="9" fill="#D93A3F"/>
+      <circle cx="0" cy="-9" r="4.5" fill="#1F1A33"/>
+      <path d="M0 -6 v16" stroke="#FAF9FD" stroke-width="1.2"/>
+    </g></g>
+  <text class="fixed" x="982" y="292">+1 fixed</text>
+  <g class="bug-back"><g transform="translate(855.9333580064184 142) scale(0.9)"><g class="">
+      <g class="legs" stroke="#1F1A33" stroke-width="1.6" stroke-linecap="round">
+        <path d="M-6 -3 l-6 -3 M-6 2 l-7 0 M-6 6 l-6 4 M6 -3 l6 -3 M6 2 l7 0 M6 6 l6 4"/>
+      </g>
+      <path d="M-3 -11 l-3 -5 M3 -11 l3 -5" stroke="#1F1A33" stroke-width="1.6" stroke-linecap="round"/>
+      <ellipse cx="0" cy="2" rx="7" ry="9" fill="#D93A3F"/>
+      <circle cx="0" cy="-9" r="4.5" fill="#1F1A33"/>
+      <path d="M0 -6 v16" stroke="#FAF9FD" stroke-width="1.2"/>
+    </g></g></g>
+  <g class="orbit">
+    <circle class="runner-glow" cx="952" cy="56" r="13"/>
+    <circle class="runner" cx="952" cy="56" r="8"/>
+  </g>
 </svg>

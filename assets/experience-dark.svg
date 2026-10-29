@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Experience</title>
+  <desc id="desc">IdeaSoft: Frontend Developer Intern, Mar – Sep 2025. TNC Group: Project-based software engineering training, Jul – Aug 2026. Egemsoft: Software testing and test automation intern, Jul – Aug 2026. Ailways: Software Developer Intern, Sep 2026 – present.</desc>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .eyebrow { font-size: 15px; font-weight: 700; letter-spacing: 2.4px; fill: #B8B2CE; }
+    .title { font-size: 40px; font-weight: 700; letter-spacing: -.8px; fill: #FAF9FD; }
+    .platform { fill: #2A2443; stroke: #4A4268; stroke-width: 1.5; }
+    .grass { fill: #F5C84C; }
+    .lv { fill: none; stroke: #4A4268; stroke-width: 1.5; }
+    .lv-text { font-size: 12px; font-weight: 700; letter-spacing: 1px; fill: #B8B2CE; }
+    .company { font-size: 22px; font-weight: 700; fill: #FAF9FD; }
+    .role { font-size: 16px; fill: #B8B2CE; }
+    .date { font-size: 15px; font-weight: 600; fill: #F5C84C; }
+    .hud { font-size: 13px; font-weight: 700; letter-spacing: 1.6px; fill: #B8B2CE; }
+    .xp-track { fill: #3B3457; }
+    .xp-fill { fill: #F5C84C; transform-box: fill-box; transform-origin: left center; animation: xp 12s infinite; }
+    .hero { animation: hero 12s infinite; }
+    .bob { animation: bob .5s ease-in-out infinite alternate; }
+    .gain { font-size: 16px; font-weight: 700; fill: #F5C84C; opacity: 0; animation: gain 12s linear infinite; }
+    .bug-egem { transform-box: fill-box; transform-origin: center bottom; animation: squash 12s linear infinite; }
+    .legs { animation: wiggle .25s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+    .flag { fill: #F5C84C; transform-box: fill-box; transform-origin: left center; animation: wave 1.2s ease-in-out infinite alternate; }
+    .flag-text { font-size: 11px; font-weight: 800; letter-spacing: 1px; fill: #1F1A33; }
+    .bubble { opacity: 0; animation: bubble 12s linear infinite; }
+    .bubble rect { fill: #2A2443; stroke: #4A4268; stroke-width: 1.5; }
+    .bubble text { font-size: 15px; font-weight: 600; fill: #FAF9FD; }
+    .dot { animation: blink 1.2s steps(1) infinite; }
+    .dot:nth-of-type(2) { animation-delay: .3s; }
+    .dot:nth-of-type(3) { animation-delay: .6s; }
+
+    @keyframes hero { 0% { transform: translate(151px, 208px); opacity: 0; } 2.50% { opacity: 1; } 0.00% { transform: translate(151px, 208px); } 12.50% { transform: translate(151px, 208px); } 13.50% { transform: translate(192.4px, 168.1px); } 14.83% { transform: translate(247.6px, 134.5px); } 15.83% { transform: translate(289.0px, 124.0px); } 16.83% { transform: translate(330.4px, 126.1px); } 18.17% { transform: translate(385.6px, 148.5px); } 19.17% { transform: translate(427px, 180px); } 31.67% { transform: translate(427px, 180px); } 32.67% { transform: translate(468.4px, 140.1px); } 34.00% { transform: translate(523.6px, 106.5px); } 35.00% { transform: translate(565.0px, 96.0px); } 36.00% { transform: translate(606.4px, 98.1px); } 37.33% { transform: translate(661.6px, 120.5px); } 38.33% { transform: translate(703px, 152px); } 50.83% { transform: translate(703px, 152px); } 51.83% { transform: translate(744.4px, 112.1px); } 53.17% { transform: translate(799.6px, 78.5px); } 54.17% { transform: translate(841.0px, 68.0px); } 55.17% { transform: translate(882.4px, 70.1px); } 56.50% { transform: translate(937.6px, 92.5px); } 57.50% { transform: translate(979px, 124px); } 94.17% { transform: translate(979px, 124px); opacity: 1; } 98.33% { transform: translate(979px, 124px); opacity: 0; } 100% { transform: translate(151px, 208px); opacity: 0; } }
+    @keyframes xp { 0% { transform: scaleX(.02); } 0.00% { transform: scaleX(0); } 3.33% { transform: scaleX(0.25); } 19.17% { transform: scaleX(0.25); } 22.50% { transform: scaleX(0.5); } 38.33% { transform: scaleX(0.5); } 41.67% { transform: scaleX(0.75); } 57.50% { transform: scaleX(0.75); } 60.83% { transform: scaleX(0.92); } 96.67% { transform: scaleX(.92); } 100% { transform: scaleX(.02); } }
+    @keyframes gain { 0% { opacity: 0; transform: translateY(8px); } 2%, 9% { opacity: 1; transform: none; } 12%, 100% { opacity: 0; transform: translateY(-12px); } }
+    @keyframes squash { 0%, 37.92% { opacity: 1; transform: none; } 39.17% { opacity: 1; transform: scaleY(.15); } 42.50%, 97% { opacity: 0; transform: scaleY(.15); } 100% { opacity: 1; transform: none; } }
+    @keyframes wiggle { from { transform: rotate(-8deg); } to { transform: rotate(8deg); } }
+    @keyframes bob { from { transform: none; } to { transform: translateY(-3px); } }
+    @keyframes wave { from { transform: skewY(-6deg); } to { transform: skewY(6deg); } }
+    @keyframes bubble { 0%, 70% { opacity: 0; transform: translateY(6px); } 73%, 92% { opacity: 1; transform: none; } 95%, 100% { opacity: 0; } }
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: .2; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .hero { transform: translate(979px, 124px); }
+      .bubble { opacity: 1; }
+    }
+  </style>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="388.5" rx="20" fill="#1F1A33" stroke="#3B3457" stroke-width="1.5"/>
+  <text class="eyebrow" x="64" y="62">CAREER MODE</text>
+  <text class="title" x="62" y="106">Experience</text>
+
+  <text class="hud" x="830" y="62" text-anchor="end">XP</text>
+  <rect class="xp-track" x="842" y="50" width="294" height="14" rx="7"/>
+  <rect class="xp-fill" x="842" y="50" width="294" height="14" rx="7"/>
+  <text class="hud" x="1136" y="88" text-anchor="end">LEVEL 4 · IN PROGRESS</text>
+
+  <g>
+    <rect class="platform" x="61" y="262" width="250" height="18" rx="5"/>
+    <rect class="grass" x="61" y="262" width="250" height="5" rx="2.5"/>
+    <rect class="lv" x="61" y="232" width="52" height="22" rx="11"/>
+    <text class="lv-text" x="87" y="248" text-anchor="middle">LV 1</text>
+    <text class="company" x="61" y="306">IdeaSoft</text><text class="role" x="61" y="328">Frontend Developer Intern</text>
+    <text class="date" x="61" y="349">Mar – Sep 2025</text>
+  </g>
+  <g>
+    <rect class="platform" x="337" y="234" width="250" height="18" rx="5"/>
+    <rect class="grass" x="337" y="234" width="250" height="5" rx="2.5"/>
+    <rect class="lv" x="337" y="204" width="52" height="22" rx="11"/>
+    <text class="lv-text" x="363" y="220" text-anchor="middle">LV 2</text>
+    <text class="company" x="337" y="278">TNC Group</text><text class="role" x="337" y="300">Project-based software</text><text class="role" x="337" y="321">engineering training</text>
+    <text class="date" x="337" y="342">Jul – Aug 2026</text>
+  </g>
+  <g>
+    <rect class="platform" x="613" y="206" width="250" height="18" rx="5"/>
+    <rect class="grass" x="613" y="206" width="250" height="5" rx="2.5"/>
+    <rect class="lv" x="613" y="176" width="52" height="22" rx="11"/>
+    <text class="lv-text" x="639" y="192" text-anchor="middle">LV 3</text>
+    <text class="company" x="613" y="250">Egemsoft</text><text class="role" x="613" y="272">Software testing and</text><text class="role" x="613" y="293">test automation intern</text>
+    <text class="date" x="613" y="314">Jul – Aug 2026</text>
+  </g>
+  <g>
+    <rect class="platform" x="889" y="178" width="250" height="18" rx="5"/>
+    <rect class="grass" x="889" y="178" width="250" height="5" rx="2.5"/>
+    <rect class="lv" x="889" y="148" width="52" height="22" rx="11"/>
+    <text class="lv-text" x="915" y="164" text-anchor="middle">LV 4</text>
+    <text class="company" x="889" y="222">Ailways</text><text class="role" x="889" y="244">Software Developer Intern</text>
+    <text class="date" x="889" y="265">Sep 2026 – present</text>
+  </g>
+  <g transform="translate(724 194) scale(1)"><g class="bug-egem">
+      <g class="legs" stroke="#FAF9FD" stroke-width="1.6" stroke-linecap="round">
+        <path d="M-6 -3 l-6 -3 M-6 2 l-7 0 M-6 6 l-6 4 M6 -3 l6 -3 M6 2 l7 0 M6 6 l6 4"/>
+      </g>
+      <path d="M-3 -11 l-3 -5 M3 -11 l3 -5" stroke="#FAF9FD" stroke-width="1.6" stroke-linecap="round"/>
+      <ellipse cx="0" cy="2" rx="7" ry="9" fill="#E5484D"/>
+      <circle cx="0" cy="-9" r="4.5" fill="#FAF9FD"/>
+      <path d="M0 -6 v16" stroke="#1F1A33" stroke-width="1.2"/>
+    </g></g>
+  <line x1="1121" y1="178" x2="1121" y2="104" stroke="#B8B2CE" stroke-width="2.5" stroke-linecap="round"/>
+  <path class="flag" d="M1122 104 h44 l-8 11 l8 11 h-44 z"/>
+  <text class="flag-text" x="1128" y="119">NOW</text>
+
+  <text class="gain" style="animation-delay:-11.90s" x="172" y="192" text-anchor="middle">+ Frontend</text>
+  <text class="gain" style="animation-delay:-9.60s" x="448" y="164" text-anchor="middle">+ Team projects</text>
+  <text class="gain" style="animation-delay:-7.30s" x="724" y="136" text-anchor="middle">+ Test automation</text>
+  <text class="gain" style="animation-delay:-5.00s" x="1000" y="108" text-anchor="middle">+ Architecture</text>
+  <g class="bubble">
+    <rect x="813" y="112" width="150" height="36" rx="12"/>
+    <path d="M962 124 l14 8 l-14 4 z" fill="#2A2443" stroke="#4A4268" stroke-width="1.5"/>
+    <text x="829" y="136">In progress<tspan class="dot">.</tspan><tspan class="dot">.</tspan><tspan class="dot">.</tspan></text>
+  </g>
+  <g class="hero"><g class="bob"><rect x="12" y="0" width="6" height="6" fill="#8B5E3C"/><rect x="18" y="0" width="6" height="6" fill="#8B5E3C"/><rect x="24" y="0" width="6" height="6" fill="#8B5E3C"/><rect x="6" y="6" width="6" height="6" fill="#8B5E3C"/><rect x="12" y="6" width="6" height="6" fill="#8B5E3C"/><rect x="18" y="6" width="6" height="6" fill="#8B5E3C"/><rect x="24" y="6" width="6" height="6" fill="#8B5E3C"/><rect x="30" y="6" width="6" height="6" fill="#8B5E3C"/><rect x="6" y="12" width="6" height="6" fill="#8B5E3C"/><rect x="12" y="12" width="6" height="6" fill="#1F1A33"/><rect x="18" y="12" width="6" height="6" fill="#F2C9A5"/><rect x="24" y="12" width="6" height="6" fill="#1F1A33"/><rect x="30" y="12" width="6" height="6" fill="#8B5E3C"/><rect x="12" y="18" width="6" height="6" fill="#F2C9A5"/><rect x="18" y="18" width="6" height="6" fill="#F2C9A5"/><rect x="24" y="18" width="6" height="6" fill="#F2C9A5"/><rect x="6" y="24" width="6" height="6" fill="#F5C84C"/><rect x="12" y="24" width="6" height="6" fill="#F5C84C"/><rect x="18" y="24" width="6" height="6" fill="#F5C84C"/><rect x="24" y="24" width="6" height="6" fill="#F5C84C"/><rect x="30" y="24" width="6" height="6" fill="#F5C84C"/><rect x="0" y="30" width="6" height="6" fill="#F2C9A5"/><rect x="12" y="30" width="6" height="6" fill="#F5C84C"/><rect x="18" y="30" width="6" height="6" fill="#F5C84C"/><rect x="24" y="30" width="6" height="6" fill="#F5C84C"/><rect x="36" y="30" width="6" height="6" fill="#F2C9A5"/><rect x="12" y="36" width="6" height="6" fill="#F5C84C"/><rect x="18" y="36" width="6" height="6" fill="#F5C84C"/><rect x="24" y="36" width="6" height="6" fill="#F5C84C"/><rect x="12" y="42" width="6" height="6" fill="#B8B2CE"/><rect x="24" y="42" width="6" height="6" fill="#B8B2CE"/><rect x="12" y="48" width="6" height="6" fill="#B8B2CE"/><rect x="24" y="48" width="6" height="6" fill="#B8B2CE"/></g></g>
+</svg>

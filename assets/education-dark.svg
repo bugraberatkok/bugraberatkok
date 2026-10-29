@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+  <title id="title">Education</title>
+  <desc id="desc">B.Sc. Software Engineering at Bahçeşehir University, graduating January 2027. Computer Education and Instructional Technology at Bahçeşehir University, double major, completed June 2026. Erasmus exchange at Universidad San Jorge, Zaragoza, 2025–2026. Languages: Turkish (native), English (advanced), Spanish (A1).</desc>
+  <defs>
+    <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="bar2"><rect x="64" y="324" width="576" height="14" rx="7"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .eyebrow { font-size: 15px; font-weight: 700; letter-spacing: 2.4px; fill: #B8B2CE; }
+    .title { font-size: 40px; font-weight: 700; letter-spacing: -.8px; fill: #FAF9FD; }
+    .degree { font-size: 22px; font-weight: 700; fill: #FAF9FD; }
+    .school { font-size: 16px; fill: #B8B2CE; }
+    .when { font-size: 15px; font-weight: 700; fill: #F5C84C; }
+    .track { fill: #3B3457; }
+    .fill { fill: #F5C84C; transform-box: fill-box; transform-origin: left center; animation: load 12s cubic-bezier(.3, .8, .4, 1) infinite; }
+    .fill-done { fill: #F5C84C; }
+    .shine { animation: shine 4s ease-in-out infinite; }
+    .status { font-family: 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; font-size: 16px; fill: #B8B2CE; opacity: 0; animation: status 12s linear infinite; }
+    .cursor { fill: #F5C84C; animation: blink 1s steps(1) infinite; }
+    .card { fill: #2A2443; stroke: #4A4268; stroke-width: 1.5; }
+    .route { fill: none; stroke: #5A4A94; stroke-width: 2; stroke-dasharray: 4 7; }
+    .code { font-size: 14px; font-weight: 800; letter-spacing: 1.5px; fill: #B8B2CE; }
+    .pin { fill: #F5C84C; }
+    .plane { fill: #F5C84C; }
+    .hola { opacity: 0; animation: hola 6s linear infinite; }
+    .hola rect { fill: #F5C84C; }
+    .hola text { font-size: 15px; font-weight: 700; fill: #1F1A33; }
+    .langs-label { font-size: 15px; font-weight: 700; letter-spacing: 2px; fill: #B8B2CE; }
+    .chip { fill: #2A2443; stroke: #4A4268; stroke-width: 1.5; }
+    .chip-text { font-size: 15px; fill: #B8B2CE; }
+    .chip-strong { font-weight: 700; fill: #FAF9FD; }
+    .ola { opacity: 0; animation: ola 12s linear infinite; }
+    .ola rect, .ola path { fill: #F5C84C; }
+    .ola text { font-size: 14px; font-weight: 700; fill: #1F1A33; }
+
+    @keyframes load { 0% { transform: scaleX(0); } 18% { transform: scaleX(.86); } 80% { transform: scaleX(.95); } 94% { transform: scaleX(.95); opacity: 1; } 99% { transform: scaleX(.95); opacity: 0; } 100% { transform: scaleX(0); opacity: 0; } }
+    @keyframes status { 0% { opacity: 0; } 2%, 23% { opacity: 1; } 25%, 100% { opacity: 0; } }
+    @keyframes shine { 0% { transform: translateX(-140px); } 60%, 100% { transform: translateX(616px); } }
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes hola { 0%, 70% { opacity: 0; transform: translateY(6px); } 74%, 96% { opacity: 1; transform: none; } 100% { opacity: 0; } }
+    @keyframes ola { 0%, 40% { opacity: 0; transform: translateY(6px); } 44%, 70% { opacity: 1; transform: none; } 74%, 100% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .fill { transform: scaleX(.95); }
+      .status:first-of-type { opacity: 1; }
+    }
+  </style>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="408.5" rx="20" fill="#1F1A33" stroke="#3B3457" stroke-width="1.5"/>
+  <text class="eyebrow" x="64" y="62">STATUS: LOADING DEGREE</text>
+  <text class="title" x="62" y="106">Education</text>
+
+  <text class="degree" x="64" y="152">B.Sc. Software Engineering</text>
+  <text class="school" x="64" y="176">Bahçeşehir University</text>
+  <text class="when" x="640" y="152" text-anchor="end">graduating Jan 2027</text>
+  <rect class="track" x="64" y="188" width="576" height="14" rx="7"/>
+  <rect class="fill" x="64" y="188" width="576" height="14" rx="7"/>
+  <text class="status" style="animation-delay:0.00s" x="64" y="224">&gt; compiling final exams…</text><text class="status" style="animation-delay:-9.00s" x="64" y="224">&gt; linking capstone project… ✓</text><text class="status" style="animation-delay:-6.00s" x="64" y="224">&gt; waiting for graduation…</text><text class="status" style="animation-delay:-3.00s" x="64" y="224">&gt; almost there</text>
+
+  <text class="degree" x="64" y="272">Computer Education and Instructional Technology</text>
+  <text class="school" x="64" y="296">Bahçeşehir University · double major</text>
+  <text class="when" x="640" y="316" text-anchor="end">✓ completed June 2026</text>
+  <rect class="fill-done" x="64" y="324" width="576" height="14" rx="7"/>
+  <g clip-path="url(#bar2)"><rect class="shine" x="64" y="324" width="120" height="14" fill="url(#shine)"/></g>
+
+  <rect class="card" x="700" y="128" width="436" height="210" rx="16"/>
+  <text class="degree" x="724" y="166">Erasmus exchange</text>
+  <text class="school" x="724" y="190">Universidad San Jorge, Zaragoza · 2025–2026</text>
+  <path class="route" d="M1100 300 Q 920 196 740 300"/>
+  <circle class="pin" cx="1100" cy="300" r="6"/><text class="code" x="1100" y="326" text-anchor="middle">IST</text>
+  <circle class="pin" cx="740" cy="300" r="6"/><text class="code" x="740" y="326" text-anchor="middle">ZAZ</text>
+  <g class="hola"><rect x="716" y="208" width="138" height="30" rx="10"/><text x="728" y="229">¡Hola, Zaragoza!</text></g>
+  <path class="plane" d="M18 0 L-9 -4.5 L-15 -18 L-21 -18 L-16.5 -4.5 L-24 -3 L-28.5 -9 L-31.5 -9 L-30 0 L-31.5 9 L-28.5 9 L-24 3 L-16.5 4.5 L-21 18 L-15 18 L-9 4.5 Z">
+    <animateMotion dur="6s" repeatCount="indefinite" rotate="auto" keyPoints="0;1;1" keyTimes="0;.7;1" calcMode="linear" path="M1100 300 Q 920 196 740 300"/>
+  </path>
+
+  <text class="langs-label" x="64" y="375">LANGUAGES</text>
+  <g><rect class="chip" x="196" y="352" width="158" height="34" rx="17"/><text class="chip-text" x="213" y="374"><tspan class="chip-strong">Turkish</tspan> · native</text></g><g><rect class="chip" x="366" y="352" width="174" height="34" rx="17"/><text class="chip-text" x="383" y="374"><tspan class="chip-strong">English</tspan> · advanced</text></g><g><rect class="chip" x="552" y="352" width="126" height="34" rx="17"/><text class="chip-text" x="569" y="374"><tspan class="chip-strong">Spanish</tspan> · A1</text></g>
+  <g class="ola"><path d="M688 369 l12 -6 v12 z"/><rect x="699" y="354" width="156" height="30" rx="10"/><text x="711" y="374">¡Hola! (y poco más)</text></g>
+</svg>
