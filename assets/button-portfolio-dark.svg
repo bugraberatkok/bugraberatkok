@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="64" viewBox="0 0 260 64" role="img" aria-label="Portfolio">
+  <defs>
+    <clipPath id="b"><rect x="1" y="1" width="258" height="62" rx="16"/></clipPath>
+    <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .label { font-size: 22px; font-weight: 700; fill: #1F1A33; }
+    .in { font-size: 17px; font-weight: 800; fill: #fff; }
+    .shine { animation: shine 5s ease-in-out infinite; animation-delay: 0s; }
+    .nudge { animation: nudge 2.5s ease-in-out infinite; }
+    @keyframes shine { 0% { transform: translateX(-120px); } 35%, 100% { transform: translateX(300px); } }
+    @keyframes nudge { 0%, 70%, 100% { transform: none; } 80% { transform: translate(3px, -3px); } 90% { transform: none; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="1" y="1" width="258" height="62" rx="16" fill="#F5C84C" stroke="#F5C84C" stroke-width="1.5"/>
+  <g clip-path="url(#b)"><rect class="shine" x="0" y="0" width="90" height="64" fill="url(#shine)"/></g>
+  <g transform="translate(46 32)"><g class="nudge"><path d="M-7 7 L7 -7 M-2 -7 H7 V2" fill="none" stroke="#1F1A33" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g>
+  <text class="label" x="76" y="40">Portfolio</text>
+</svg>
