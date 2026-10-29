@@ -13,10 +13,9 @@ Software Engineering student and full-stack developer. I build full-stack applic
 | Project | What it is | Stack |
 |---|---|---|
 | [Smart Chores Tracker](https://github.com/bugraberatkok/SmartChoresTracker) | Capstone project: a household chore platform with assignments, progress tracking and rewards | Spring Boot · React, TypeScript · PostgreSQL · GitHub Actions |
-| [Football Analyzer AI](https://github.com/bugraberatkok/football-analyzer-ai) | Co-developed with [Hüseyin Hünkar](https://github.com/HuseyinHunkar07): collects live football statistics and has an LLM write pre-match tactical reports | Spring Boot · React · Gemini |
+| [Football Analyzer AI](https://github.com/bugraberatkok/football-analyzer-ai) | Collects live football statistics and uses Gemini to write pre-match tactical reports | Spring Boot · React · Gemini |
 | [Focus](https://github.com/bugraberatkok/Focus-GameEngine-and-Two-Playable-Games) | A 2D game engine written from scratch, with two playable games built on it | C++ · SDL2 |
 | [FitTrack](https://github.com/bugraberatkok/fitness-web-app) | Workout and nutrition tracking with sign-in and a personal dashboard | Spring Boot · React · JWT |
-| [Portfolio](https://github.com/bugraberatkok/BugraBeratKokPortfolio) | Bilingual portfolio with an admin panel for content and certificates | Next.js · Supabase · Vercel |
 
 ## Experience
 
@@ -31,10 +30,10 @@ Software Engineering student and full-stack developer. I build full-stack applic
 |---|---|
 | **Architecture** | Modular and layered architecture · REST API design · Design patterns |
 | **Backend** | Java · Spring Boot · Node.js, Express · PHP, WordPress · PostgreSQL |
-| **Frontend** | TypeScript · JavaScript · React · Next.js · Tailwind CSS |
+| **Frontend** | TypeScript · JavaScript · React · Next.js · CSS frameworks |
 | **AI and integration** | n8n · AI agents · LLM integration · Supabase · MCP |
 | **Testing** | Selenium · JUnit · Postman · JMeter · Jira |
-| **Tooling** | Git · GitHub Actions · Docker · Vercel |
+| **Tooling** | Version control · Docker · Vercel |
 | **Games and graphics** | C++ · SDL2 · C# · Unity · Unreal Engine |
 
 ## Education
