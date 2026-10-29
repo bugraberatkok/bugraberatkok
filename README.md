@@ -7,11 +7,8 @@
 
 <br>
 
-<p>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.svg">
-  <img src="assets/intro-light.svg" alt="whoami: Software Engineering student at Bahçeşehir University, Software Developer Intern at Ailways. I build full-stack applications and backend systems, and I care about clean architecture and well-tested code." width="100%">
-</picture>
+<p align="center">
+I build full-stack applications and backend systems, and I care about clean architecture and well-tested code.
 </p>
 
 <p align="center">
