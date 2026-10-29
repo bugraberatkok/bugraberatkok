@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
   <title id="title">Education</title>
-  <desc id="desc">B.Sc. Software Engineering at Bahçeşehir University, graduating January 2027. Computer Education and Instructional Technology at Bahçeşehir University, double major, completed June 2026. Erasmus exchange at Universidad San Jorge, Zaragoza, 2025–2026. Languages: Turkish (native), English (advanced), Spanish (A1).</desc>
+  <desc id="desc">B.Sc. Software Engineering (double major) at Bahçeşehir University, 2022 to January 2027. B.Sc. Computer Education and Instructional Technology at Bahçeşehir University, 2021 to June 2026. Erasmus exchange at Universidad San Jorge, Zaragoza, 2025–2026. Languages: Turkish (native), English (advanced), Spanish (A1).</desc>
   <defs>
     <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
     <clipPath id="bar2"><rect x="64" y="324" width="576" height="14" rx="7"/></clipPath>
@@ -53,14 +53,14 @@
   <text class="title" x="62" y="106">Education</text>
 
   <text class="degree" x="64" y="152">B.Sc. Software Engineering</text>
-  <text class="school" x="64" y="176">Bahçeşehir University</text>
+  <text class="school" x="64" y="176">Bahçeşehir University · double major · 2022–2027</text>
   <text class="when" x="640" y="152" text-anchor="end">graduating Jan 2027</text>
   <rect class="track" x="64" y="188" width="576" height="14" rx="7"/>
   <rect class="fill" x="64" y="188" width="576" height="14" rx="7"/>
   <text class="status" style="animation-delay:0.00s" x="64" y="224">&gt; compiling final exams…</text><text class="status" style="animation-delay:-9.00s" x="64" y="224">&gt; linking capstone project… ✓</text><text class="status" style="animation-delay:-6.00s" x="64" y="224">&gt; waiting for graduation…</text><text class="status" style="animation-delay:-3.00s" x="64" y="224">&gt; almost there</text>
 
   <text class="degree" x="64" y="272">Computer Education and Instructional Technology</text>
-  <text class="school" x="64" y="296">Bahçeşehir University · double major</text>
+  <text class="school" x="64" y="296">Bahçeşehir University · 2021–2026</text>
   <text class="when" x="640" y="316" text-anchor="end">✓ completed June 2026</text>
   <rect class="fill-done" x="64" y="324" width="576" height="14" rx="7"/>
   <g clip-path="url(#bar2)"><rect class="shine" x="64" y="324" width="120" height="14" fill="url(#shine)"/></g>

@@ -7,8 +7,11 @@
 
 <br>
 
-<p align="center">
-I build full-stack applications and backend systems, and I care about clean architecture and well-tested code.
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
+  <img src="assets/about-light.svg" alt="About: I build full-stack applications and backend systems, and I care about clean architecture and well-tested code." width="100%">
+</picture>
 </p>
 
 <p align="center">
@@ -33,6 +36,6 @@ I build full-stack applications and backend systems, and I care about clean arch
 <p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/education-dark.svg">
-  <img src="assets/education-light.svg" alt="Education. Bahçeşehir University: B.Sc. Software Engineering, graduating January 2027. Bahçeşehir University: Computer Education and Instructional Technology, double major, completed June 2026. Universidad San Jorge, Zaragoza: Erasmus exchange, 2025–2026. Languages: Turkish (native), English (advanced), Spanish (A1)." width="100%">
+  <img src="assets/education-light.svg" alt="Education. Bahçeşehir University: B.Sc. Software Engineering (double major), 2022 – January 2027. Bahçeşehir University: B.Sc. Computer Education and Instructional Technology, 2021 – June 2026. Universidad San Jorge, Zaragoza: Erasmus exchange, 2025–2026. Languages: Turkish (native), English (advanced), Spanish (A1)." width="100%">
 </picture>
 </p>

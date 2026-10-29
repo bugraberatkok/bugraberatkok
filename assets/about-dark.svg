@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-labelledby="title desc">
+  <title id="title">About</title>
+  <desc id="desc">I build full-stack applications and backend systems, and I care about clean architecture and well-tested code.</desc>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .eyebrow { font-size: 15px; font-weight: 700; letter-spacing: 2.4px; fill: #B8B2CE; }
+    .line { font-size: 27px; font-weight: 600; fill: #FAF9FD; }
+    .mark { fill: #F5C84C; }
+  </style>
+  <rect x="0.75" y="0.75" width="1198.5" height="174.5" rx="20" fill="#1F1A33" stroke="#3B3457" stroke-width="1.5"/>
+  <rect class="mark" x="64" y="48" width="12" height="12" rx="2.5"/>
+  <text class="eyebrow" x="86" y="59">ABOUT</text>
+  <text class="line" x="64" y="104">I build full-stack applications and backend systems,</text><text class="line" x="64" y="142">and I care about clean architecture and well-tested code.</text>
+</svg>
