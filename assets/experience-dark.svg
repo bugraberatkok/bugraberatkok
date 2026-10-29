@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
   <title id="title">Experience</title>
-  <desc id="desc">IdeaSoft: Frontend Developer Intern, Mar – Sep 2025. TNC Group: Project-based software engineering training, Jul – Aug 2026. Egemsoft: Software testing and test automation intern, Jul – Aug 2026. Ailways: Software Developer Intern, Sep 2026 – present. More levels to come.</desc>
+  <desc id="desc">IdeaSoft: Frontend Developer Intern, Mar – Sep 2025. TNC Group: Project-based software engineering training, Jul – Aug 2026. Egemsoft: Software testing and test automation intern, Jul – Aug 2026. Ailways: Software Developer Intern, Sep 2026 – present. Next level: coming soon.</desc>
   <defs>
     <clipPath id="card"><rect x="1.5" y="1.5" width="1197" height="387" rx="19"/></clipPath>
-    <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#1F1A33" stop-opacity="0"/><stop offset="1" stop-color="#1F1A33"/></linearGradient>
   </defs>
   <style>
     text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
@@ -69,7 +68,6 @@
   <text class="hud" x="830" y="62" text-anchor="end">XP</text>
   <rect class="xp-track" x="842" y="50" width="294" height="14" rx="7"/>
   <rect class="xp-fill" x="842" y="50" width="294" height="14" rx="7"/>
-  <text class="hud" x="1136" y="88" text-anchor="end">LV 4 / ∞</text>
 
   <g clip-path="url(#card)">
   <g class="ghost">
@@ -79,14 +77,6 @@
     <text class="ghost-title" x="920" y="210">???</text>
     <text class="ghost-note" x="920" y="230">coming soon</text>
   </g>
-  <g class="ghost">
-    <rect x="1134" y="140" width="196" height="18" rx="5"/>
-    <rect x="1134" y="110" width="52" height="22" rx="11"/>
-    <text class="lv-text" x="1160" y="126" text-anchor="middle">LV 6</text>
-    <text class="ghost-title" x="1134" y="184">???</text>
-    <text class="ghost-note" x="1134" y="204">coming soon</text>
-  </g>
-    <rect x="1050" y="110" width="148" height="240" fill="url(#edge)"/>
   </g>
 
   <g>
