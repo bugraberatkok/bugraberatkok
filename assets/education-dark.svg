@@ -78,5 +78,5 @@
 
   <text class="langs-label" x="64" y="375">LANGUAGES</text>
   <g><rect class="chip" x="196" y="352" width="158" height="34" rx="17"/><text class="chip-text" x="213" y="374"><tspan class="chip-strong">Turkish</tspan> · native</text></g><g><rect class="chip" x="366" y="352" width="174" height="34" rx="17"/><text class="chip-text" x="383" y="374"><tspan class="chip-strong">English</tspan> · advanced</text></g><g><rect class="chip" x="552" y="352" width="126" height="34" rx="17"/><text class="chip-text" x="569" y="374"><tspan class="chip-strong">Spanish</tspan> · A1</text></g>
-  <g class="ola"><path d="M688 369 l12 -6 v12 z"/><rect x="699" y="354" width="156" height="30" rx="10"/><text x="711" y="374">¡Hola! (y poco más)</text></g>
+  <g class="ola"><path d="M688 369 l12 -6 v12 z"/><rect x="699" y="354" width="64" height="30" rx="10"/><text x="711" y="374">¡Hola!</text></g>
 </svg>
